@@ -1,0 +1,242 @@
+.wenexus-parent-wrapper {
+  max-width: 900px;
+  width: 95%;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+.wenexus-wrapper {
+  margin-bottom: 20px;
+}
+.wenexus-applist {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wenexus-applist a {
+  width: 33.33%;
+  font-size: 14px;
+  display: inline-block;
+  padding-bottom: 15px;
+  color: #444;
+}
+.wenexus-applist-link {
+  text-decoration: none;
+  color: #007ace;
+}
+.wenexus-card-stack .Polaris-Stack__Item {
+  flex: 1;
+}
+.wenexus-stack-card-link {
+  text-decoration: none;
+  color: #222;
+}
+.wenexus-margin-top {margin-top: .5rem;}
+.wenexus-margin-bottom {margin-bottom: .5rem;}
+.wnxs-custom-date-field {
+  position: relative;
+  overflow: hidden;
+}
+.wnxs-custom-date-field input {
+  padding: 7px 10px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  font-family: inherit;
+  width: 100%;
+}
+.wnxs-custom-date-field input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  background: rgba(151, 102, 241, 0.4);
+  background: transparent;
+  bottom: 0; top: 1px;
+  left: -24px; right: 0;
+  width: 100%;
+  height: 85%;
+  color: transparent;
+  cursor: pointer;
+}
+.wnxs-custom-date-field input:focus-visible {
+  outline: none;
+}
+
+/* Countdown Timer CSS
+**********************/
+.countdown-settingsTab {width: 100%;}
+.countdown-designTab {width: 100%;}
+
+/* preview css */
+.cd-design ::placeholder {color: #aaa;}
+.cd-design a {text-decoration: none;}
+.cd-design .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+}
+.cd-design a.btn {
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s;
+}
+.cd-design .countdown-wrapper {
+  background: linear-gradient(to right, #272860, #4439a1);
+  color: #fff;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.05);
+}
+.cd-design .countdown-wrapper .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.cd-design .countdown-wrapper .countdown-timer {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+.cd-design .countdown-msg, .countdown-expire {
+  font-size: 20px;
+  font-weight: 600;
+  color: aqua;
+  text-align: center;
+}
+.cd-design .countdown-expire {
+  display: none;
+}
+.cd-design .countdown-btn a.btn {
+  font-size: 20px;
+  color: rgb(199, 47, 245);
+  padding: 0 10px;
+  font-weight: 600;
+}
+.cd-design .countdown-btn a.btn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  background-color: rgba(151, 102, 241, 0.4);
+  transition: 0.3s;
+}
+.cd-design .countdown-btn a.btn:hover::after {bottom: 0;height: 100%;}
+.cd-design .countdown-timer .time-number {
+  color: rgb(199, 47, 245);
+  font-size: 20px;
+}
+.cd-design .countdown-timer .time-txt {color: aqua;}
+@media only screen and (max-width: 768px) {
+  .cd-design .countdown-wrapper .wrapper {flex-direction: column;gap: 10px;}
+}
+/* Countdown Timer Two */
+.cd-design .countdown-wrapper.cd-two {
+  background: url(https://cdn.hextom.com/img/bar_background/20180403_template_congruent_pentagon.png);
+}
+.cd-design .countdown-wrapper.cd-two .countdown-msg, 
+.cd-design .countdown-wrapper.cd-two .countdown-expire {color: #222;}
+.cd-design .countdown-wrapper.cd-two .countdown-timer .time-number {color: #fff;}
+.cd-design .countdown-wrapper.cd-two .countdown-timer .time-txt {color: #222;}
+.cd-design .countdown-wrapper.cd-two .time {
+  background: #48d18b;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.cd-design .countdown-wrapper.cd-two .countdown-btn a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #48d18b;
+  color: #fff;
+  border-radius: 10px;
+}
+.cd-design .countdown-wrapper.cd-two .countdown-btn a.btn::after {content: unset;}
+.cd-design .countdown-wrapper.cd-two .countdown-msg-first {
+  font-size: 30px;
+  font-weight: 800;
+}
+/* Countdown Timer Three */
+.cd-design .countdown-wrapper.cd-three {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://cdn.shopify.com/s/files/1/1652/8827/files/bg1.jpg);
+}
+.cd-design .countdown-wrapper.cd-three .countdown-msg, 
+.cd-design .countdown-wrapper.cd-three .countdown-expire {color: #fece14;}
+.cd-design .countdown-wrapper.cd-three .countdown-timer .time-number {
+  color: #fd6900;
+  font-size: 30px;
+  font-weight: 600;
+}
+.cd-design .countdown-wrapper.cd-three .countdown-timer .time-txt {color: #fff;}
+.cd-design .countdown-wrapper.cd-three .countdown-msg-first {
+  font-size: 29px;
+  font-weight: 700;
+}
+/* Countdown Timer Four */
+.cd-design .countdown-wrapper.cd-four {
+  background-image: url(https://root.kilatechapps.com/static/countdownbar/img/bg/pink%20brushed.jpg);
+}
+.cd-design .countdown-wrapper.cd-four .wrapper {
+  padding: 15px;
+  padding-top: 0;
+  flex-wrap: wrap;
+}
+.cd-design .countdown-wrapper.cd-four .countdown-msg-first {
+  padding: 15px 0 10px 0;
+  font-size: 25px;
+  color: #c80000;
+}
+.cd-design .countdown-wrapper.cd-four .time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; height: 50px;
+  flex-direction: column;
+  background: #ffae73;
+  border-radius: 100px;
+  color: #222;
+}
+.cd-design .countdown-wrapper.cd-four .time-number {
+  color: #fff;
+  font-size: 15px;
+}
+.cd-design .countdown-wrapper.cd-four .time-txt {
+  font-size: 12px;
+  color: #444;
+  font-weight: 600;
+}
+
+
+.countdown-designForm  {width: 100%;;}
+.countdown-designForm > .Polaris-Layout > * {
+  flex-basis: 100%;
+  display: flex;
+  gap: 30px;
+}
+.wnxs-designTab-colorFields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.countdown-designForm .wnxs-designMsg-textfield,
+.countdown-designForm .wnxs-designMsg-dropdown {
+  width: 40%;
+}
+.countdown-designForm .wnxs-designMsg-colorField {width: calc(33.33% - 20px)}
+@media only screen and (max-width: 1100px) {
+  .countdown-designForm .wnxs-designMsg-textfield,
+  .countdown-designForm .wnxs-designMsg-colorField,
+  .countdown-designForm .wnxs-designMsg-dropdown {
+    width: calc(50% - 20px);
+    text-align: center;
+    justify-content: center;
+  }
+  .countdown-designForm .wnxs-designMsg-textfield .chrome-picker,
+  .countdown-designForm .wnxs-designMsg-colorField .chrome-picker,
+  .countdown-designForm .wnxs-designMsg-dropdown .chrome-picker {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .countdown-designForm .wnxs-designMsg-textfield,
+  .countdown-designForm .wnxs-designMsg-colorField,
+  .countdown-designForm .wnxs-designMsg-dropdown {
+    width: 100%;
+  }
+}
